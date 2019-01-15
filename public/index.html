@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>CSS/HTML Workshop with Privateaser</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css" />
+      <title>CSS/HTML Workshop with Privateaser</title>
   </head>
+  
   <body>
-    <div id="bar">
-      <input class="name" type="text" placeholder="Bar name"/>
-      <input class="price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="price-by-person" type="number" placeholder="Price by person"/>
-    </div>
+    <img src="https://www.privateaser.com/static/img/logo-privateaser.svg" class="imgPriv" alt="Privateaser">
+    <center>
+    <p>
+    <h1>Dress up Privateaser </h1>
+    </p>
+    <p>
+      <div id="bar">
+        <input class="name" class="arrondie" type="text" placeholder="Bar name"/>
+        <input class="price-by-hour" type="number" placeholder="Price by hour"/>
+        <input class="price-by-person" type="number" placeholder="Price by person"/>
+      </div>
+    </p>
+    <p>
+      <p>
     <div id="booker">
       <input class="name" type="text" placeholder="Booker name"/>
       <input class="time" type="number" placeholder="Time in h"/>
       <input class="persons" type="number" placeholder="Persons"/>
+      <p>
       <input class="option" type="checkbox" placeholder="Deductible option"/>
+      </p>
     </div>
+    </p>
+    <p>
     <button id="compute">Compute</button>
+    <h2>
     <div id="actors"></div>
-    <script src="privateaser.js"></script>
+    <script src="privateaser.js"> </script>
     <script src="index.js"></script>
+    </h2>
   </body>
+</p>
+  </center>
 </html>
