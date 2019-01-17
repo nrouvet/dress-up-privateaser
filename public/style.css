@@ -1,5 +1,6 @@
 
-body {background-color:rgb(29, 22, 22);}
+body {background-color:rgb(29, 22, 22);
+background-image: url(https://images5.alphacoders.com/462/thumb-1920-462280.jpg)}
 h1 {
   color: white;
   text-align: center;
@@ -19,3 +20,14 @@ widows: 150px;
 height:150px;
 }
 
+.container{
+background-color: gray;
+opacity: 0.9;
+width: 600px;
+height: 500px
+}
+
+label{
+  color:white;
+  font-size: smaller
+}
